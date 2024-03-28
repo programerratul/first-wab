@@ -149,3 +149,59 @@ main{
     background-color: #00B670;
     color: white;
 }
+/* footer part start hear  */
+.footer-parant{
+    display: flex;
+    justify-content: space-around;
+    background-color: #710188;
+}
+.footer-card-div{
+    width: 250px;
+    padding-top: 35px;
+}
+.footer-card-div h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.footer-card-div h3 span{
+    color: green;
+}
+.footer-card-div h3 .span-commerce{
+    color: orange;
+}
+.footer-card-div p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.568);
+}
+.footer-card-div .Copyright{
+    font-size: 16px;
+    color: #1B0F44;
+    padding-top: 15px;
+}
+.footer-card-div h3{
+    color: #9574ff;
+}
+.footer-card-div a{
+    text-decoration: none;
+    color: #1B0F44;
+    line-height: 35px;
+}
+.icone-footer{
+    font-size: 25px;
+    padding-right: 15px;
+}
+.footer-card-div h5{
+    padding-top: 25px;
+    color: #1B0F44;
+}
+hr{
+    width: 500px;
+    margin-bottom: 200px;
+    margin: auto;
+}
+.horigontal-line-div{
+    background-color: #710188;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
