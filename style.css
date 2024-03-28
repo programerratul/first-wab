@@ -60,11 +60,92 @@ nav{
     font-size: 25px;
     margin-left: -35px;
     color: gray;
-   
 }
 .search-bar-div input{
     width: 500px;
     border-radius: 30px;
     padding: 5px 10px;
     height: 40px;
+}
+/* main section start hear  */
+main{
+    background-color: #2C226A;
+}
+#main-parant-card-div{
+    width: 700px;
+    margin: auto;
+    padding-bottom: 120px;
+}
+.latest-veido-hader{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+}
+.latest-veido-hader h2{
+    color: #00B670;
+    font-size: 25px;
+    font-weight: bold;
+}
+.latest-veido-hader h3{
+    color: #00B670;
+    font-size: 20px;
+    font-weight: bold;
+}
+.latest-veido-hader h3 span{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+#card-veido-parant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap:20px ;
+    grid-row-gap:50px ;
+}
+.card-veido{
+   height: 130px;
+   transition: 0.5s;   
+}
+.card-veido:hover img{
+    transform: scale(1.1);
+}
+.card-veido img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.card-veido div{
+    display: flex;
+    justify-content: space-between;
+    color: #a79bcf;
+}
+.previous-nextpage-parants{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.previous-nextpage-parants h2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #04A86C;
+    padding: 7px;
+    border-radius: 5px;
+}
+.span-div-parant a{
+    background-color: whitesmoke;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    border: 1px solid gray;
+
+}
+.span-div-parant a:first-child{
+    background-color: #00B670;
+    color: white;
 }
