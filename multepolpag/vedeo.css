@@ -1,7 +1,8 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -47,29 +48,7 @@ nav{
     border-radius: 5px;
     padding: 5px;
 }
-.search-bar-div{
-    display: flex;
-    justify-content: center;
-    background-image: url('image/website\ banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 150px 0;
-}
-.search-bar-div i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    margin-left: -35px;
-    color: gray;
-}
-.search-bar-div input{
-    width: 500px;
-    border-radius: 30px;
-    padding: 5px 10px;
-    height: 40px;
-}
-/* main section start hear  */
+
 main{
     background-color: #2C226A;
 }
@@ -150,60 +129,4 @@ main{
 .span-div-parant a:first-child{
     background-color: #00B670;
     color: white;
-}
-/* footer part start hear  */
-.footer-parant{
-    display: flex;
-    justify-content: space-around;
-    background-color: #140218c7;
-}
-.footer-card-div{
-    width: 250px;
-    padding-top: 35px;
-}
-.footer-card-div h3{
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-.footer-card-div h3 span{
-    color: green;
-}
-.footer-card-div h3 .span-commerce{
-    color: orange;
-}
-.footer-card-div p{
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.568);
-}
-.footer-card-div .Copyright{
-    font-size: 16px;
-    color: #1B0F44;
-    padding-top: 15px;
-}
-.footer-card-div h3{
-    color: #9574ff;
-}
-.footer-card-div a{
-    text-decoration: none;
-    color: #1B0F44;
-    line-height: 35px;
-}
-.icone-footer{
-    font-size: 25px;
-    padding-right: 15px;
-}
-.footer-card-div h5{
-    padding-top: 25px;
-    color: #1B0F44;
-}
-hr{
-    width: 500px;
-    margin-bottom: 200px;
-    margin: auto;
-}
-.horigontal-line-div{
-    background-color: #140218c7;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 30px;
 }

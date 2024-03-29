@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B0F44;
+    padding: 12px;
+    border-bottom: 3px solid #87348E;
+    position: sticky;
+    top: 0;
+}
+.first-image-div a{
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+.first-image-div i{
+    font-size: 30px;
+    color: burlywood;
+}
+.first-image-div span{
+    color: green;
+}
+.first-image-div h3{
+    font-size: 30px;
+    
+    display: inline;
+    padding: 5px 10px;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    padding: 5px 10px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: white;
+    transition: 0.5s;
+}
+.nav-items a:hover{
+    background-color:black ;
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form-parant{
+    width: 500px;
+    background-color: #E7A6B0;
+    text-align: center;
+    margin: 50px auto;
+}
+.form-parant h2{
+    font-style: italic;
+    padding-top: 30px;
+}
+.form-parant input{
+    width: 350px;
+    height: 25px;
+    margin-top: 24px;
+    border-radius: 30px;
+    padding-left: 15px;
+    border: none;
+}
+.form-parant textarea{
+    width: 350px;
+    margin: 30px 0;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+    padding-top: 10px;
+}
+.form-parant button{
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background: linear-gradient( to right, #270BB8,#6620B3,#2D7CBB,#12A7C1);
+    color: white;
+    border: none;
+    
+}
